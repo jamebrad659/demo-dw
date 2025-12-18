@@ -1,0 +1,4002 @@
+[
+  {
+    "customer_id": 1,
+    "full_name": "Michael Smith",
+    "email": "michaeljones@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-07-28T13:30:01"
+  },
+  {
+    "customer_id": 2,
+    "full_name": "Erik Charles",
+    "email": "william65@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-12-17T10:46:20"
+  },
+  {
+    "customer_id": 3,
+    "full_name": "Cameron Fisher",
+    "email": "lbyrd@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-11-04T00:53:45"
+  },
+  {
+    "customer_id": 4,
+    "full_name": "Joshua Smith",
+    "email": "jason99@example.net",
+    "country": "ES",
+    "segment": "small_business",
+    "created_at": "2025-10-10T03:53:30"
+  },
+  {
+    "customer_id": 5,
+    "full_name": "Jeremy Lewis",
+    "email": "yleon@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-23T05:27:33"
+  },
+  {
+    "customer_id": 6,
+    "full_name": "Diane Beck",
+    "email": "clarence34@example.org",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-07-24T14:29:18"
+  },
+  {
+    "customer_id": 7,
+    "full_name": "Alexander Sanchez",
+    "email": "xcarr@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-11-25T06:31:28"
+  },
+  {
+    "customer_id": 8,
+    "full_name": "Mark Lee",
+    "email": "psnyder@example.org",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-09-18T02:03:44"
+  },
+  {
+    "customer_id": 9,
+    "full_name": "Stephanie Dalton",
+    "email": "osbornejeffery@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-10-27T01:07:15"
+  },
+  {
+    "customer_id": 10,
+    "full_name": "Justin Lowery",
+    "email": "bryantlaurie@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-09-30T05:31:38"
+  },
+  {
+    "customer_id": 11,
+    "full_name": "Linda Dodson DVM",
+    "email": "jrivas@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-10-02T18:55:23"
+  },
+  {
+    "customer_id": 12,
+    "full_name": "Scott Cole",
+    "email": "maryramirez@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-12-12T20:57:43"
+  },
+  {
+    "customer_id": 13,
+    "full_name": "Denise Jones",
+    "email": "jimmy55@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-09-23T18:03:17"
+  },
+  {
+    "customer_id": 14,
+    "full_name": "David Benson",
+    "email": "calebrussell@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-07-07T07:11:17"
+  },
+  {
+    "customer_id": 15,
+    "full_name": "Daniel Fisher",
+    "email": "gateskathy@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-09-20T03:02:01"
+  },
+  {
+    "customer_id": 16,
+    "full_name": "Guy Molina",
+    "email": "vmedina@example.net",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-09-22T06:33:21"
+  },
+  {
+    "customer_id": 17,
+    "full_name": "Connie Robinson",
+    "email": "ytucker@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-11-23T23:19:30"
+  },
+  {
+    "customer_id": 18,
+    "full_name": "Jennifer Martin",
+    "email": "ncalhoun@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-10-29T12:50:46"
+  },
+  {
+    "customer_id": 19,
+    "full_name": "Leslie Alvarado",
+    "email": "dayderek@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-06-26T21:20:30"
+  },
+  {
+    "customer_id": 20,
+    "full_name": "James Lewis",
+    "email": "matthew64@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-07-26T22:35:16"
+  },
+  {
+    "customer_id": 21,
+    "full_name": "Julie Curry",
+    "email": "cookemichael@example.net",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-08-09T15:20:22"
+  },
+  {
+    "customer_id": 22,
+    "full_name": "Marissa Webster",
+    "email": "jamessmith@example.org",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-07-04T23:27:14"
+  },
+  {
+    "customer_id": 23,
+    "full_name": "Michael Elliott",
+    "email": "stevenscott@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-08-06T23:22:09"
+  },
+  {
+    "customer_id": 24,
+    "full_name": "Tracey Higgins",
+    "email": "tamirodriguez@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-07-24T05:37:23"
+  },
+  {
+    "customer_id": 25,
+    "full_name": "Susan Brooks",
+    "email": "charlesvaughn@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-08-21T05:29:43"
+  },
+  {
+    "customer_id": 26,
+    "full_name": "Raymond Jefferson",
+    "email": "hoganashlee@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-07T19:25:45"
+  },
+  {
+    "customer_id": 27,
+    "full_name": "Mary Jones",
+    "email": "alexander67@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-08-28T01:45:21"
+  },
+  {
+    "customer_id": 28,
+    "full_name": "Madison Poole",
+    "email": "ryangross@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-09-13T20:02:04"
+  },
+  {
+    "customer_id": 29,
+    "full_name": "Tamara Hampton",
+    "email": "ugraham@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-13T02:20:39"
+  },
+  {
+    "customer_id": 30,
+    "full_name": "David Michael",
+    "email": "nicole37@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-12T18:28:58"
+  },
+  {
+    "customer_id": 31,
+    "full_name": "Gabrielle Snyder",
+    "email": "hunter35@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-10-18T04:01:15"
+  },
+  {
+    "customer_id": 32,
+    "full_name": "Kyle Beard",
+    "email": "blackjames@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-08-26T17:45:47"
+  },
+  {
+    "customer_id": 33,
+    "full_name": "Justin Allen",
+    "email": "fbrewer@example.com",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-11-08T11:27:37"
+  },
+  {
+    "customer_id": 34,
+    "full_name": "Edward Sullivan",
+    "email": "kevinperkins@example.com",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-11-22T15:00:15"
+  },
+  {
+    "customer_id": 35,
+    "full_name": "Jessica Reese",
+    "email": "michael74@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-10-07T03:02:24"
+  },
+  {
+    "customer_id": 36,
+    "full_name": "Nathan Stewart",
+    "email": "jamesrodgers@example.com",
+    "country": "ES",
+    "segment": "small_business",
+    "created_at": "2025-08-09T11:17:42"
+  },
+  {
+    "customer_id": 37,
+    "full_name": "Paige Carlson",
+    "email": "wallkenneth@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-11-09T08:28:48"
+  },
+  {
+    "customer_id": 38,
+    "full_name": "Michael Martinez",
+    "email": "mccannangela@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-07-26T11:55:38"
+  },
+  {
+    "customer_id": 39,
+    "full_name": "Nicole Garcia",
+    "email": "andrewstaylor@example.com",
+    "country": "NL",
+    "segment": "small_business",
+    "created_at": "2025-07-16T04:10:27"
+  },
+  {
+    "customer_id": 40,
+    "full_name": "Anthony Everett",
+    "email": "ewilson@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-26T19:28:26"
+  },
+  {
+    "customer_id": 41,
+    "full_name": "Mark Brown",
+    "email": "lisaavery@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-09-25T03:22:27"
+  },
+  {
+    "customer_id": 42,
+    "full_name": "Phillip Obrien",
+    "email": "kimberlyjames@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-08T20:19:22"
+  },
+  {
+    "customer_id": 43,
+    "full_name": "Wanda Torres",
+    "email": "lynchjody@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-18T09:26:06"
+  },
+  {
+    "customer_id": 44,
+    "full_name": "Matthew Moore",
+    "email": "andreamoore@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-10-21T02:46:49"
+  },
+  {
+    "customer_id": 45,
+    "full_name": "Julie Johnson",
+    "email": "jasmine71@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-09-17T03:10:06"
+  },
+  {
+    "customer_id": 46,
+    "full_name": "Rachel Weber",
+    "email": "ronaldstephens@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-08-05T23:30:10"
+  },
+  {
+    "customer_id": 47,
+    "full_name": "Samantha Jones",
+    "email": "lauralarson@example.net",
+    "country": "NL",
+    "segment": "small_business",
+    "created_at": "2025-07-20T14:00:36"
+  },
+  {
+    "customer_id": 48,
+    "full_name": "Caleb Barker",
+    "email": "gbender@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-12-17T12:44:15"
+  },
+  {
+    "customer_id": 49,
+    "full_name": "Kyle Preston",
+    "email": "cassandra01@example.org",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-09-25T12:55:18"
+  },
+  {
+    "customer_id": 50,
+    "full_name": "Laura Sampson",
+    "email": "barbara27@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-10-30T14:07:38"
+  },
+  {
+    "customer_id": 51,
+    "full_name": "Donald Shea",
+    "email": "fwalters@example.org",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-10-26T03:55:24"
+  },
+  {
+    "customer_id": 52,
+    "full_name": "Gary Santiago",
+    "email": "marksteele@example.com",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-09-20T22:04:34"
+  },
+  {
+    "customer_id": 53,
+    "full_name": "Robin Pierce",
+    "email": "qmiller@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-10-28T07:31:56"
+  },
+  {
+    "customer_id": 54,
+    "full_name": "Jennifer Robertson",
+    "email": "sandovalamy@example.com",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-07-14T03:54:10"
+  },
+  {
+    "customer_id": 55,
+    "full_name": "Isaiah Avila",
+    "email": "nwolf@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-02T04:16:42"
+  },
+  {
+    "customer_id": 56,
+    "full_name": "Dwayne Gilmore",
+    "email": "omartinez@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-10-06T07:13:05"
+  },
+  {
+    "customer_id": 57,
+    "full_name": "Christopher Pierce",
+    "email": "hdavis@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-11-23T20:44:28"
+  },
+  {
+    "customer_id": 58,
+    "full_name": "Brittany Cantu",
+    "email": "william46@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-07-14T11:06:03"
+  },
+  {
+    "customer_id": 59,
+    "full_name": "Juan Reyes",
+    "email": "michellehill@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-09-21T08:22:22"
+  },
+  {
+    "customer_id": 60,
+    "full_name": "Katie Hoover",
+    "email": "jessica99@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-08-26T15:36:09"
+  },
+  {
+    "customer_id": 61,
+    "full_name": "Jill Washington",
+    "email": "andrea86@example.com",
+    "country": "FR",
+    "segment": "enterprise",
+    "created_at": "2025-09-24T17:33:30"
+  },
+  {
+    "customer_id": 62,
+    "full_name": "Veronica Allen",
+    "email": "xhall@example.com",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-08-23T03:15:37"
+  },
+  {
+    "customer_id": 63,
+    "full_name": "John Mcintyre",
+    "email": "qhughes@example.net",
+    "country": "UK",
+    "segment": "enterprise",
+    "created_at": "2025-06-30T03:04:49"
+  },
+  {
+    "customer_id": 64,
+    "full_name": "Andrew Shaw MD",
+    "email": "sawyerscott@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-07-21T04:31:52"
+  },
+  {
+    "customer_id": 65,
+    "full_name": "Nathan Ortiz",
+    "email": "charlesharrington@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-12-15T10:38:05"
+  },
+  {
+    "customer_id": 66,
+    "full_name": "Jennifer Miller",
+    "email": "melissa86@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-08-26T09:28:43"
+  },
+  {
+    "customer_id": 67,
+    "full_name": "Olivia Brennan",
+    "email": "williamsonjimmy@example.net",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-10-21T08:45:54"
+  },
+  {
+    "customer_id": 68,
+    "full_name": "Darren Davis",
+    "email": "hodgesjane@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-12-17T11:30:35"
+  },
+  {
+    "customer_id": 69,
+    "full_name": "Elijah Johnson",
+    "email": "laura45@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-09-15T19:21:39"
+  },
+  {
+    "customer_id": 70,
+    "full_name": "Joseph Knight",
+    "email": "georgemiller@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-09-13T06:48:54"
+  },
+  {
+    "customer_id": 71,
+    "full_name": "Kathleen Aguilar",
+    "email": "stevenking@example.com",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-10-19T23:43:43"
+  },
+  {
+    "customer_id": 72,
+    "full_name": "Robert Santana",
+    "email": "charleslandry@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-10-29T03:22:19"
+  },
+  {
+    "customer_id": 73,
+    "full_name": "Jessica Wright",
+    "email": "james67@example.org",
+    "country": "DE",
+    "segment": "small_business",
+    "created_at": "2025-08-18T17:49:44"
+  },
+  {
+    "customer_id": 74,
+    "full_name": "Ian Phillips",
+    "email": "andrew64@example.org",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-08-06T17:07:40"
+  },
+  {
+    "customer_id": 75,
+    "full_name": "Paula Beltran",
+    "email": "swall@example.org",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-10-09T13:05:22"
+  },
+  {
+    "customer_id": 76,
+    "full_name": "Colleen Lee",
+    "email": "erica21@example.net",
+    "country": "DE",
+    "segment": "enterprise",
+    "created_at": "2025-10-17T12:47:49"
+  },
+  {
+    "customer_id": 77,
+    "full_name": "Richard Johnson",
+    "email": "jessica14@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-10-25T03:50:05"
+  },
+  {
+    "customer_id": 78,
+    "full_name": "Curtis Buchanan",
+    "email": "alyssa42@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-11-13T19:10:56"
+  },
+  {
+    "customer_id": 79,
+    "full_name": "Karen Drake",
+    "email": "linda71@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-12-16T03:26:45"
+  },
+  {
+    "customer_id": 80,
+    "full_name": "Shannon Ramsey",
+    "email": "zcoffey@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-11-15T02:16:11"
+  },
+  {
+    "customer_id": 81,
+    "full_name": "James Baker",
+    "email": "gibsonemily@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-08-31T16:18:16"
+  },
+  {
+    "customer_id": 82,
+    "full_name": "Samantha Bentley",
+    "email": "leonardthomas@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-08-11T13:25:47"
+  },
+  {
+    "customer_id": 83,
+    "full_name": "Erin Bishop",
+    "email": "reidsteven@example.net",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-12-10T08:30:07"
+  },
+  {
+    "customer_id": 84,
+    "full_name": "Audrey Williams",
+    "email": "torrestravis@example.org",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-08-19T07:58:38"
+  },
+  {
+    "customer_id": 85,
+    "full_name": "Brandy Chavez",
+    "email": "umatthews@example.org",
+    "country": "FR",
+    "segment": "enterprise",
+    "created_at": "2025-08-06T05:54:59"
+  },
+  {
+    "customer_id": 86,
+    "full_name": "Brett Burns",
+    "email": "rcrosby@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-12-10T13:59:47"
+  },
+  {
+    "customer_id": 87,
+    "full_name": "Jeremy Sampson",
+    "email": "cory58@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-11-02T16:36:36"
+  },
+  {
+    "customer_id": 88,
+    "full_name": "Donald Donaldson",
+    "email": "ndavis@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-08-30T07:12:37"
+  },
+  {
+    "customer_id": 89,
+    "full_name": "Alison Buchanan",
+    "email": "vanessabuchanan@example.org",
+    "country": "UK",
+    "segment": "small_business",
+    "created_at": "2025-10-23T19:55:19"
+  },
+  {
+    "customer_id": 90,
+    "full_name": "Kristen Willis",
+    "email": "markhernandez@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-07-04T23:24:56"
+  },
+  {
+    "customer_id": 91,
+    "full_name": "William Huerta",
+    "email": "lauren10@example.org",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-06-22T04:53:01"
+  },
+  {
+    "customer_id": 92,
+    "full_name": "Richard Chapman",
+    "email": "thompsonbrian@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-06-24T12:55:23"
+  },
+  {
+    "customer_id": 93,
+    "full_name": "Nichole Alvarez",
+    "email": "william17@example.net",
+    "country": "DE",
+    "segment": "small_business",
+    "created_at": "2025-09-11T09:29:15"
+  },
+  {
+    "customer_id": 94,
+    "full_name": "Amanda Logan",
+    "email": "stephen00@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-08-03T16:09:57"
+  },
+  {
+    "customer_id": 95,
+    "full_name": "Michael Henry",
+    "email": "fjones@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-12-03T04:21:59"
+  },
+  {
+    "customer_id": 96,
+    "full_name": "Cameron Weber",
+    "email": "oscar98@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-10-17T18:32:26"
+  },
+  {
+    "customer_id": 97,
+    "full_name": "Jessica Mcguire",
+    "email": "farrelldebra@example.net",
+    "country": "UK",
+    "segment": "small_business",
+    "created_at": "2025-09-17T18:08:10"
+  },
+  {
+    "customer_id": 98,
+    "full_name": "Jessica Beasley",
+    "email": "dmorgan@example.com",
+    "country": "DE",
+    "segment": "small_business",
+    "created_at": "2025-11-08T15:01:35"
+  },
+  {
+    "customer_id": 99,
+    "full_name": "Emily Edwards",
+    "email": "nicholas27@example.org",
+    "country": "ES",
+    "segment": "small_business",
+    "created_at": "2025-09-10T10:19:17"
+  },
+  {
+    "customer_id": 100,
+    "full_name": "Anna Davis",
+    "email": "lisa80@example.net",
+    "country": "ES",
+    "segment": "small_business",
+    "created_at": "2025-07-09T08:48:26"
+  },
+  {
+    "customer_id": 101,
+    "full_name": "Meagan Jenkins",
+    "email": "uparrish@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-10-08T16:51:05"
+  },
+  {
+    "customer_id": 102,
+    "full_name": "Heather Lane",
+    "email": "ericolson@example.org",
+    "country": "IT",
+    "segment": "enterprise",
+    "created_at": "2025-08-16T12:07:09"
+  },
+  {
+    "customer_id": 103,
+    "full_name": "Holly Farmer",
+    "email": "lindsaybruce@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-08-28T15:19:07"
+  },
+  {
+    "customer_id": 104,
+    "full_name": "Kristin Lynch",
+    "email": "anthony44@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-10-18T19:07:40"
+  },
+  {
+    "customer_id": 105,
+    "full_name": "Sergio Knight",
+    "email": "vjones@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-08-28T19:33:24"
+  },
+  {
+    "customer_id": 106,
+    "full_name": "Joseph Bennett",
+    "email": "xpeterson@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-06-27T14:32:29"
+  },
+  {
+    "customer_id": 107,
+    "full_name": "Todd Carlson",
+    "email": "moorekaren@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-11-08T18:33:00"
+  },
+  {
+    "customer_id": 108,
+    "full_name": "Jeremy Coleman",
+    "email": "nperry@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-10-30T12:35:27"
+  },
+  {
+    "customer_id": 109,
+    "full_name": "Brian Gregory",
+    "email": "trose@example.org",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-07-13T18:05:49"
+  },
+  {
+    "customer_id": 110,
+    "full_name": "Kyle Smith",
+    "email": "sierra24@example.com",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-08-03T11:21:34"
+  },
+  {
+    "customer_id": 111,
+    "full_name": "Jonathan Jordan",
+    "email": "omarpadilla@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-08-24T08:49:48"
+  },
+  {
+    "customer_id": 112,
+    "full_name": "Renee Jones",
+    "email": "grahamsteve@example.org",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-10-08T03:30:34"
+  },
+  {
+    "customer_id": 113,
+    "full_name": "Jeffrey Sullivan",
+    "email": "zroberts@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-12-06T01:23:34"
+  },
+  {
+    "customer_id": 114,
+    "full_name": "Travis Stevens",
+    "email": "christopher13@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-23T17:11:54"
+  },
+  {
+    "customer_id": 115,
+    "full_name": "Blake Harrell",
+    "email": "jeffrey21@example.net",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-10-14T00:00:29"
+  },
+  {
+    "customer_id": 116,
+    "full_name": "Jordan Bullock",
+    "email": "michael23@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-10-22T14:42:36"
+  },
+  {
+    "customer_id": 117,
+    "full_name": "Christopher Hernandez",
+    "email": "thompsonkendra@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-07-20T02:08:55"
+  },
+  {
+    "customer_id": 118,
+    "full_name": "Olivia Cole",
+    "email": "michelle52@example.com",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-09-19T17:50:49"
+  },
+  {
+    "customer_id": 119,
+    "full_name": "Mark Hogan",
+    "email": "bellcharles@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-07-04T21:54:22"
+  },
+  {
+    "customer_id": 120,
+    "full_name": "Jacob Mitchell",
+    "email": "gilbertwilliam@example.com",
+    "country": "ES",
+    "segment": "enterprise",
+    "created_at": "2025-09-17T09:44:25"
+  },
+  {
+    "customer_id": 121,
+    "full_name": "Rebecca Huang",
+    "email": "kstout@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-10-12T08:12:00"
+  },
+  {
+    "customer_id": 122,
+    "full_name": "John Hernandez",
+    "email": "hayeslisa@example.com",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-07-28T04:55:43"
+  },
+  {
+    "customer_id": 123,
+    "full_name": "Matthew Williams",
+    "email": "hritter@example.net",
+    "country": "BE",
+    "segment": "small_business",
+    "created_at": "2025-11-07T08:37:15"
+  },
+  {
+    "customer_id": 124,
+    "full_name": "Jake Campbell",
+    "email": "rschroeder@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-10-18T01:34:06"
+  },
+  {
+    "customer_id": 125,
+    "full_name": "Maria Jones",
+    "email": "grantpaul@example.com",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-07-01T19:42:36"
+  },
+  {
+    "customer_id": 126,
+    "full_name": "Tracey Morrison",
+    "email": "mathewaguilar@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-11-09T04:30:44"
+  },
+  {
+    "customer_id": 127,
+    "full_name": "Walter Hale",
+    "email": "tanderson@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-12-16T16:01:02"
+  },
+  {
+    "customer_id": 128,
+    "full_name": "Maria Murphy",
+    "email": "elizabethcalderon@example.net",
+    "country": "UK",
+    "segment": "enterprise",
+    "created_at": "2025-08-20T18:25:31"
+  },
+  {
+    "customer_id": 129,
+    "full_name": "Anna Santiago",
+    "email": "andrew42@example.org",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-11-01T17:55:55"
+  },
+  {
+    "customer_id": 130,
+    "full_name": "Katelyn Perez",
+    "email": "ericphillips@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-27T00:15:26"
+  },
+  {
+    "customer_id": 131,
+    "full_name": "Sandy Stephenson",
+    "email": "stanleynancy@example.net",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-09-28T05:40:28"
+  },
+  {
+    "customer_id": 132,
+    "full_name": "Brittany White",
+    "email": "jenniferwilliams@example.com",
+    "country": "NL",
+    "segment": "small_business",
+    "created_at": "2025-07-17T02:24:07"
+  },
+  {
+    "customer_id": 133,
+    "full_name": "Tracy Bishop",
+    "email": "pyoung@example.com",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-10-30T23:44:55"
+  },
+  {
+    "customer_id": 134,
+    "full_name": "Stephanie Lee",
+    "email": "smurray@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-11-25T16:07:46"
+  },
+  {
+    "customer_id": 135,
+    "full_name": "Tracy Montoya",
+    "email": "moniquewilliams@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-09-27T07:23:03"
+  },
+  {
+    "customer_id": 136,
+    "full_name": "Timothy Dawson",
+    "email": "mitchellkathryn@example.com",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-12-08T09:20:57"
+  },
+  {
+    "customer_id": 137,
+    "full_name": "Brittany Kim",
+    "email": "lisawilkerson@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-09-16T21:38:54"
+  },
+  {
+    "customer_id": 138,
+    "full_name": "Jonathan Young",
+    "email": "brooksanthony@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-09-10T05:13:44"
+  },
+  {
+    "customer_id": 139,
+    "full_name": "Gabriela Thomas",
+    "email": "mitchellmaria@example.net",
+    "country": "DE",
+    "segment": "small_business",
+    "created_at": "2025-12-01T14:30:50"
+  },
+  {
+    "customer_id": 140,
+    "full_name": "Michael West",
+    "email": "bullockandrew@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-11-30T00:55:29"
+  },
+  {
+    "customer_id": 141,
+    "full_name": "Todd Lynch",
+    "email": "srodriguez@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-11-30T18:52:45"
+  },
+  {
+    "customer_id": 142,
+    "full_name": "David Fowler",
+    "email": "fbrown@example.net",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-08-19T03:08:07"
+  },
+  {
+    "customer_id": 143,
+    "full_name": "Jose Allen",
+    "email": "kellysmith@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-10-03T17:51:39"
+  },
+  {
+    "customer_id": 144,
+    "full_name": "Chelsea Barnett",
+    "email": "carlos88@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-07T08:46:47"
+  },
+  {
+    "customer_id": 145,
+    "full_name": "Kristen Myers DDS",
+    "email": "qzavala@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-11-21T08:36:58"
+  },
+  {
+    "customer_id": 146,
+    "full_name": "Austin Allen",
+    "email": "ingramjill@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-06-24T19:21:48"
+  },
+  {
+    "customer_id": 147,
+    "full_name": "Joshua Li",
+    "email": "mariacohen@example.net",
+    "country": "DE",
+    "segment": "small_business",
+    "created_at": "2025-07-17T13:24:10"
+  },
+  {
+    "customer_id": 148,
+    "full_name": "Robin Brown",
+    "email": "mjohnson@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-09-22T13:47:09"
+  },
+  {
+    "customer_id": 149,
+    "full_name": "Andrew Mahoney",
+    "email": "ihays@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-11-22T06:30:19"
+  },
+  {
+    "customer_id": 150,
+    "full_name": "Matthew Mitchell",
+    "email": "glennmartin@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-08-09T20:11:48"
+  },
+  {
+    "customer_id": 151,
+    "full_name": "Steve Paul",
+    "email": "lmorgan@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-11-23T20:52:29"
+  },
+  {
+    "customer_id": 152,
+    "full_name": "Tim Stone PhD",
+    "email": "mmiller@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-11-03T00:56:31"
+  },
+  {
+    "customer_id": 153,
+    "full_name": "Brian Murphy",
+    "email": "kirk96@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-10-05T13:45:50"
+  },
+  {
+    "customer_id": 154,
+    "full_name": "Jeremy Acosta",
+    "email": "christina64@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-11-02T14:12:22"
+  },
+  {
+    "customer_id": 155,
+    "full_name": "Angela Walsh",
+    "email": "william20@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-11-22T08:13:23"
+  },
+  {
+    "customer_id": 156,
+    "full_name": "Rachael Johnson",
+    "email": "youngdeanna@example.com",
+    "country": "ES",
+    "segment": "small_business",
+    "created_at": "2025-12-03T10:45:17"
+  },
+  {
+    "customer_id": 157,
+    "full_name": "Amanda Hernandez",
+    "email": "xrush@example.com",
+    "country": "DE",
+    "segment": "small_business",
+    "created_at": "2025-09-03T23:53:59"
+  },
+  {
+    "customer_id": 158,
+    "full_name": "Chad Richardson",
+    "email": "debra31@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-11-16T19:54:02"
+  },
+  {
+    "customer_id": 159,
+    "full_name": "Joseph Mcintyre",
+    "email": "greenjorge@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-11-11T12:09:45"
+  },
+  {
+    "customer_id": 160,
+    "full_name": "Donna Hendricks DDS",
+    "email": "taylorcharles@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-08-02T07:38:23"
+  },
+  {
+    "customer_id": 161,
+    "full_name": "Yolanda Cochran",
+    "email": "elizabeth18@example.net",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-12-13T03:49:01"
+  },
+  {
+    "customer_id": 162,
+    "full_name": "Sarah Joseph",
+    "email": "laurahicks@example.org",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-08-17T00:51:19"
+  },
+  {
+    "customer_id": 163,
+    "full_name": "Cynthia Snyder",
+    "email": "angela57@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-07-30T16:18:20"
+  },
+  {
+    "customer_id": 164,
+    "full_name": "Angelica Parker",
+    "email": "xfox@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-07-16T20:26:48"
+  },
+  {
+    "customer_id": 165,
+    "full_name": "Beth Stewart",
+    "email": "coleerin@example.com",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-11-28T12:42:31"
+  },
+  {
+    "customer_id": 166,
+    "full_name": "Penny Bowman",
+    "email": "katrinaanderson@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-16T13:45:06"
+  },
+  {
+    "customer_id": 167,
+    "full_name": "Sandra Holmes",
+    "email": "fred53@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-12-15T11:53:45"
+  },
+  {
+    "customer_id": 168,
+    "full_name": "Sarah King",
+    "email": "david49@example.net",
+    "country": "ES",
+    "segment": "enterprise",
+    "created_at": "2025-09-30T09:54:29"
+  },
+  {
+    "customer_id": 169,
+    "full_name": "Caroline David",
+    "email": "georgeweber@example.net",
+    "country": "ES",
+    "segment": "small_business",
+    "created_at": "2025-07-09T19:04:37"
+  },
+  {
+    "customer_id": 170,
+    "full_name": "Kristy Bryan",
+    "email": "millerstacy@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-08-26T05:05:25"
+  },
+  {
+    "customer_id": 171,
+    "full_name": "Pamela Butler",
+    "email": "jimenezcourtney@example.com",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-08-12T01:03:18"
+  },
+  {
+    "customer_id": 172,
+    "full_name": "Karen Ballard",
+    "email": "eevans@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-10-24T07:10:26"
+  },
+  {
+    "customer_id": 173,
+    "full_name": "Jason Marshall",
+    "email": "catherine55@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-03T06:53:02"
+  },
+  {
+    "customer_id": 174,
+    "full_name": "James Hodges",
+    "email": "floressteven@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-12-05T19:10:56"
+  },
+  {
+    "customer_id": 175,
+    "full_name": "Brent Roberts",
+    "email": "alin@example.org",
+    "country": "UK",
+    "segment": "small_business",
+    "created_at": "2025-09-16T22:56:18"
+  },
+  {
+    "customer_id": 176,
+    "full_name": "Robin Peck",
+    "email": "james27@example.net",
+    "country": "NL",
+    "segment": "enterprise",
+    "created_at": "2025-12-06T16:17:39"
+  },
+  {
+    "customer_id": 177,
+    "full_name": "Mr. Alexander Landry MD",
+    "email": "jasongomez@example.org",
+    "country": "UK",
+    "segment": "small_business",
+    "created_at": "2025-09-20T07:11:07"
+  },
+  {
+    "customer_id": 178,
+    "full_name": "Stephen Pena MD",
+    "email": "booneryan@example.com",
+    "country": "DE",
+    "segment": "small_business",
+    "created_at": "2025-08-15T06:53:05"
+  },
+  {
+    "customer_id": 179,
+    "full_name": "Jamie Williams",
+    "email": "hudsonjames@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-11-09T22:06:08"
+  },
+  {
+    "customer_id": 180,
+    "full_name": "Jonathan Duran",
+    "email": "marcia99@example.org",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-08-16T16:39:02"
+  },
+  {
+    "customer_id": 181,
+    "full_name": "Jennifer Norton",
+    "email": "angela52@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-07-16T15:17:02"
+  },
+  {
+    "customer_id": 182,
+    "full_name": "Kathryn Williams",
+    "email": "jenniferbrock@example.net",
+    "country": "BE",
+    "segment": "small_business",
+    "created_at": "2025-10-16T15:21:00"
+  },
+  {
+    "customer_id": 183,
+    "full_name": "Steven Taylor",
+    "email": "francisco94@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-09-18T09:23:24"
+  },
+  {
+    "customer_id": 184,
+    "full_name": "Katrina Burns",
+    "email": "thomas05@example.com",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-08-25T23:16:59"
+  },
+  {
+    "customer_id": 185,
+    "full_name": "Jason Parker",
+    "email": "carlsonjoseph@example.net",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-10-30T11:50:04"
+  },
+  {
+    "customer_id": 186,
+    "full_name": "Laura Perez",
+    "email": "silvageorge@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-11-20T16:15:58"
+  },
+  {
+    "customer_id": 187,
+    "full_name": "Sarah Hernandez",
+    "email": "anthonyvaughan@example.org",
+    "country": "BE",
+    "segment": "small_business",
+    "created_at": "2025-11-08T16:37:29"
+  },
+  {
+    "customer_id": 188,
+    "full_name": "Erik Hernandez",
+    "email": "roberthampton@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-28T16:47:18"
+  },
+  {
+    "customer_id": 189,
+    "full_name": "Monica Thornton",
+    "email": "annbolton@example.com",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-12-08T03:17:40"
+  },
+  {
+    "customer_id": 190,
+    "full_name": "Tyler Stevens",
+    "email": "amy49@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-10-01T16:34:12"
+  },
+  {
+    "customer_id": 191,
+    "full_name": "Diana Evans",
+    "email": "kellie37@example.com",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-07-28T23:41:06"
+  },
+  {
+    "customer_id": 192,
+    "full_name": "Timothy Pope",
+    "email": "keith98@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-09-22T19:42:54"
+  },
+  {
+    "customer_id": 193,
+    "full_name": "Sabrina Blevins",
+    "email": "kellyroberts@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-12-12T14:12:55"
+  },
+  {
+    "customer_id": 194,
+    "full_name": "Jeremy Scott",
+    "email": "ilewis@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-07-06T23:58:22"
+  },
+  {
+    "customer_id": 195,
+    "full_name": "Breanna Gilbert",
+    "email": "johnsantiago@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-10-08T18:51:46"
+  },
+  {
+    "customer_id": 196,
+    "full_name": "Amy Gutierrez",
+    "email": "xgarcia@example.org",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-08-04T11:22:30"
+  },
+  {
+    "customer_id": 197,
+    "full_name": "Vanessa Moore",
+    "email": "mwoods@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-06-22T15:48:59"
+  },
+  {
+    "customer_id": 198,
+    "full_name": "Anthony Mack",
+    "email": "amandasharp@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-08-23T00:25:08"
+  },
+  {
+    "customer_id": 199,
+    "full_name": "Jennifer Monroe",
+    "email": "osbornrandy@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-12-15T23:37:41"
+  },
+  {
+    "customer_id": 200,
+    "full_name": "Tonya Howe",
+    "email": "smithashley@example.org",
+    "country": "UK",
+    "segment": "small_business",
+    "created_at": "2025-07-27T19:56:39"
+  },
+  {
+    "customer_id": 201,
+    "full_name": "William Daniels",
+    "email": "ismall@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-25T17:04:42"
+  },
+  {
+    "customer_id": 202,
+    "full_name": "Robert Rivera",
+    "email": "twong@example.org",
+    "country": "IT",
+    "segment": "enterprise",
+    "created_at": "2025-09-20T12:48:14"
+  },
+  {
+    "customer_id": 203,
+    "full_name": "Rachel Bradley",
+    "email": "gregorychase@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-06-24T09:18:22"
+  },
+  {
+    "customer_id": 204,
+    "full_name": "Garrett Morales",
+    "email": "lopezdonald@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-11-29T05:43:15"
+  },
+  {
+    "customer_id": 205,
+    "full_name": "James Griffin",
+    "email": "stephanie49@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-08-08T19:39:08"
+  },
+  {
+    "customer_id": 206,
+    "full_name": "Matthew Schwartz",
+    "email": "contrerassteven@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-10-10T21:28:16"
+  },
+  {
+    "customer_id": 207,
+    "full_name": "Tammy Barron",
+    "email": "hannah45@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-09-08T09:02:51"
+  },
+  {
+    "customer_id": 208,
+    "full_name": "Casey Hernandez",
+    "email": "robert87@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-08-03T12:54:04"
+  },
+  {
+    "customer_id": 209,
+    "full_name": "Colleen Wright",
+    "email": "foxallison@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-11-24T09:14:12"
+  },
+  {
+    "customer_id": 210,
+    "full_name": "Ashley Poole",
+    "email": "ashleyhernandez@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-07-06T19:39:15"
+  },
+  {
+    "customer_id": 211,
+    "full_name": "Audrey Harris",
+    "email": "gdavis@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-12-04T13:51:45"
+  },
+  {
+    "customer_id": 212,
+    "full_name": "Carlos Perry",
+    "email": "hansenemily@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-11-25T16:26:50"
+  },
+  {
+    "customer_id": 213,
+    "full_name": "David Smith",
+    "email": "bethwilliams@example.com",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-11-09T02:23:55"
+  },
+  {
+    "customer_id": 214,
+    "full_name": "Zachary Michael",
+    "email": "andersenthomas@example.com",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-11-04T15:41:57"
+  },
+  {
+    "customer_id": 215,
+    "full_name": "Chad May",
+    "email": "ybrooks@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-09-09T01:07:37"
+  },
+  {
+    "customer_id": 216,
+    "full_name": "Jamie Miller",
+    "email": "desireebailey@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-12-07T12:23:36"
+  },
+  {
+    "customer_id": 217,
+    "full_name": "Cameron Irwin",
+    "email": "avilatiffany@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-10-03T23:28:30"
+  },
+  {
+    "customer_id": 218,
+    "full_name": "Jessica Gray",
+    "email": "johnreed@example.com",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-10-30T10:24:21"
+  },
+  {
+    "customer_id": 219,
+    "full_name": "Molly Rodriguez",
+    "email": "bmendez@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-28T06:03:06"
+  },
+  {
+    "customer_id": 220,
+    "full_name": "Kirk Griffin",
+    "email": "sanchezbradley@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-07-31T16:04:44"
+  },
+  {
+    "customer_id": 221,
+    "full_name": "Nicole Parsons",
+    "email": "williamroberts@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-08-06T03:46:09"
+  },
+  {
+    "customer_id": 222,
+    "full_name": "Kyle Chambers",
+    "email": "joel28@example.org",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-10-11T12:32:16"
+  },
+  {
+    "customer_id": 223,
+    "full_name": "Antonio Fry",
+    "email": "conniesimmons@example.com",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-09-09T22:59:57"
+  },
+  {
+    "customer_id": 224,
+    "full_name": "Teresa Powers",
+    "email": "heather62@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-06-30T18:09:53"
+  },
+  {
+    "customer_id": 225,
+    "full_name": "Joshua Allen",
+    "email": "kevinzimmerman@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-09-02T18:06:02"
+  },
+  {
+    "customer_id": 226,
+    "full_name": "Jason Butler",
+    "email": "paulscott@example.com",
+    "country": "BE",
+    "segment": "small_business",
+    "created_at": "2025-12-16T06:40:19"
+  },
+  {
+    "customer_id": 227,
+    "full_name": "Jerry Watson",
+    "email": "brettbennett@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-10-25T05:32:12"
+  },
+  {
+    "customer_id": 228,
+    "full_name": "Benjamin Ballard",
+    "email": "timothybooth@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-10-16T17:29:22"
+  },
+  {
+    "customer_id": 229,
+    "full_name": "Alexis Giles",
+    "email": "burgesskaren@example.org",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-08-19T12:37:39"
+  },
+  {
+    "customer_id": 230,
+    "full_name": "Christine Herman",
+    "email": "kimberly67@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-11-03T17:31:21"
+  },
+  {
+    "customer_id": 231,
+    "full_name": "Dennis Hunt",
+    "email": "zowens@example.net",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-10-25T14:55:47"
+  },
+  {
+    "customer_id": 232,
+    "full_name": "Erica Harris",
+    "email": "robert93@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-09-20T19:39:11"
+  },
+  {
+    "customer_id": 233,
+    "full_name": "Juan Silva",
+    "email": "mphillips@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-07-19T23:43:05"
+  },
+  {
+    "customer_id": 234,
+    "full_name": "Roy Porter",
+    "email": "jonathan77@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-08-05T07:38:01"
+  },
+  {
+    "customer_id": 235,
+    "full_name": "Heather Taylor",
+    "email": "iwhite@example.net",
+    "country": "DE",
+    "segment": "enterprise",
+    "created_at": "2025-07-24T07:41:41"
+  },
+  {
+    "customer_id": 236,
+    "full_name": "Sara Jones",
+    "email": "duranrobert@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-07-03T01:22:49"
+  },
+  {
+    "customer_id": 237,
+    "full_name": "Chris Robinson",
+    "email": "nbrooks@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-08-05T14:13:37"
+  },
+  {
+    "customer_id": 238,
+    "full_name": "Susan Hopkins",
+    "email": "smithandrea@example.org",
+    "country": "NL",
+    "segment": "small_business",
+    "created_at": "2025-10-29T02:58:17"
+  },
+  {
+    "customer_id": 239,
+    "full_name": "Denise Madden",
+    "email": "shawheidi@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-06-24T21:37:07"
+  },
+  {
+    "customer_id": 240,
+    "full_name": "Cassie Hull",
+    "email": "johnharvey@example.com",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-11-25T04:40:58"
+  },
+  {
+    "customer_id": 241,
+    "full_name": "Robert Miller",
+    "email": "pstevens@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-11-26T22:50:36"
+  },
+  {
+    "customer_id": 242,
+    "full_name": "Ronald Miller",
+    "email": "davisnicholas@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-08-04T12:14:24"
+  },
+  {
+    "customer_id": 243,
+    "full_name": "Adam Jackson",
+    "email": "pbruce@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-09-22T02:00:49"
+  },
+  {
+    "customer_id": 244,
+    "full_name": "Valerie Jacobson",
+    "email": "hallrachel@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-10-09T12:45:07"
+  },
+  {
+    "customer_id": 245,
+    "full_name": "Denise Glass",
+    "email": "rachel90@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-12-10T23:58:19"
+  },
+  {
+    "customer_id": 246,
+    "full_name": "Tyrone Matthews",
+    "email": "thickman@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-12-03T18:56:56"
+  },
+  {
+    "customer_id": 247,
+    "full_name": "Ruben Price",
+    "email": "patrick21@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-10-09T03:54:17"
+  },
+  {
+    "customer_id": 248,
+    "full_name": "Amy Kim",
+    "email": "petersonkayla@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-11-13T09:44:54"
+  },
+  {
+    "customer_id": 249,
+    "full_name": "Erin Walters",
+    "email": "whenry@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-09-06T16:26:21"
+  },
+  {
+    "customer_id": 250,
+    "full_name": "Michael Guerrero",
+    "email": "bartonkenneth@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-09-02T13:17:08"
+  },
+  {
+    "customer_id": 251,
+    "full_name": "Derrick James",
+    "email": "jodistewart@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-11-07T02:59:44"
+  },
+  {
+    "customer_id": 252,
+    "full_name": "Eric Ward",
+    "email": "curtis12@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-09T10:11:07"
+  },
+  {
+    "customer_id": 253,
+    "full_name": "Kayla Garcia",
+    "email": "gomezchristopher@example.net",
+    "country": "NL",
+    "segment": "small_business",
+    "created_at": "2025-09-16T19:25:56"
+  },
+  {
+    "customer_id": 254,
+    "full_name": "James Carter",
+    "email": "umaxwell@example.net",
+    "country": "NL",
+    "segment": "enterprise",
+    "created_at": "2025-11-20T23:25:06"
+  },
+  {
+    "customer_id": 255,
+    "full_name": "Dana Meyer DDS",
+    "email": "dominicturner@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-12-14T10:14:31"
+  },
+  {
+    "customer_id": 256,
+    "full_name": "Jeffrey Fisher",
+    "email": "xpatton@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-07-19T23:46:29"
+  },
+  {
+    "customer_id": 257,
+    "full_name": "Kathleen Jensen",
+    "email": "trodriguez@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-08-08T12:51:43"
+  },
+  {
+    "customer_id": 258,
+    "full_name": "Manuel Brock",
+    "email": "scott69@example.org",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-09-06T11:43:38"
+  },
+  {
+    "customer_id": 259,
+    "full_name": "Travis Harris",
+    "email": "gregory65@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-08-18T23:47:56"
+  },
+  {
+    "customer_id": 260,
+    "full_name": "Katherine Johnston",
+    "email": "markramirez@example.com",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-11-11T08:25:54"
+  },
+  {
+    "customer_id": 261,
+    "full_name": "Justin Vargas",
+    "email": "erinpierce@example.net",
+    "country": "BE",
+    "segment": "enterprise",
+    "created_at": "2025-08-31T12:45:53"
+  },
+  {
+    "customer_id": 262,
+    "full_name": "Christine Salinas",
+    "email": "fuenteslaura@example.com",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-09-19T06:59:04"
+  },
+  {
+    "customer_id": 263,
+    "full_name": "Mr. David Hopkins DDS",
+    "email": "mjones@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-10-30T07:58:20"
+  },
+  {
+    "customer_id": 264,
+    "full_name": "Jonathon Knapp",
+    "email": "ystephens@example.com",
+    "country": "UK",
+    "segment": "small_business",
+    "created_at": "2025-10-12T17:07:22"
+  },
+  {
+    "customer_id": 265,
+    "full_name": "Kimberly Little",
+    "email": "rodriguezjohn@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-11-04T21:31:18"
+  },
+  {
+    "customer_id": 266,
+    "full_name": "Lonnie Hart",
+    "email": "vrasmussen@example.com",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-08-29T14:07:48"
+  },
+  {
+    "customer_id": 267,
+    "full_name": "David Dixon",
+    "email": "seanmyers@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-12T05:24:23"
+  },
+  {
+    "customer_id": 268,
+    "full_name": "Brittany Cuevas",
+    "email": "agarcia@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-10-13T22:41:49"
+  },
+  {
+    "customer_id": 269,
+    "full_name": "Monica Bailey",
+    "email": "stanley38@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-07-14T04:35:29"
+  },
+  {
+    "customer_id": 270,
+    "full_name": "Jeffrey Horton",
+    "email": "carlos01@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-08-28T06:51:58"
+  },
+  {
+    "customer_id": 271,
+    "full_name": "Brian Marsh",
+    "email": "zacharyarnold@example.com",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-12-03T13:08:05"
+  },
+  {
+    "customer_id": 272,
+    "full_name": "Joel Salinas",
+    "email": "jacobsandoval@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-10-08T08:45:15"
+  },
+  {
+    "customer_id": 273,
+    "full_name": "Sonya Cole",
+    "email": "tprice@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-06-27T07:42:54"
+  },
+  {
+    "customer_id": 274,
+    "full_name": "Michael Flynn",
+    "email": "lloydamanda@example.com",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-07-31T14:41:39"
+  },
+  {
+    "customer_id": 275,
+    "full_name": "Brian Lambert",
+    "email": "orose@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-23T22:52:08"
+  },
+  {
+    "customer_id": 276,
+    "full_name": "James Wilson",
+    "email": "megan92@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-10-15T13:45:17"
+  },
+  {
+    "customer_id": 277,
+    "full_name": "Tamara Lawrence",
+    "email": "lawrenceallen@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-11-05T17:48:48"
+  },
+  {
+    "customer_id": 278,
+    "full_name": "Charles Price",
+    "email": "baileyhenderson@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-07-27T04:43:06"
+  },
+  {
+    "customer_id": 279,
+    "full_name": "Tamara Arias",
+    "email": "angelaburns@example.org",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-10-23T01:19:17"
+  },
+  {
+    "customer_id": 280,
+    "full_name": "Jerry Brown",
+    "email": "stephanie72@example.org",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-07-27T23:36:42"
+  },
+  {
+    "customer_id": 281,
+    "full_name": "Justin Delgado",
+    "email": "acohen@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-11-26T22:51:02"
+  },
+  {
+    "customer_id": 282,
+    "full_name": "Christopher Cunningham",
+    "email": "kellyhill@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-12-01T17:50:55"
+  },
+  {
+    "customer_id": 283,
+    "full_name": "Jim Newton",
+    "email": "hdunn@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-08-16T16:58:13"
+  },
+  {
+    "customer_id": 284,
+    "full_name": "Joshua Ritter",
+    "email": "wolfscott@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-13T19:54:38"
+  },
+  {
+    "customer_id": 285,
+    "full_name": "Ronald Potter",
+    "email": "nancy07@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-09-12T05:02:01"
+  },
+  {
+    "customer_id": 286,
+    "full_name": "Angie Grimes",
+    "email": "rowejoel@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-28T08:09:20"
+  },
+  {
+    "customer_id": 287,
+    "full_name": "Shannon Bishop",
+    "email": "imartin@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-10-13T19:35:35"
+  },
+  {
+    "customer_id": 288,
+    "full_name": "Anthony Bell",
+    "email": "candice25@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-11-26T14:59:35"
+  },
+  {
+    "customer_id": 289,
+    "full_name": "Derek Hodge",
+    "email": "taylorkaren@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-17T11:26:44"
+  },
+  {
+    "customer_id": 290,
+    "full_name": "Donald Rios",
+    "email": "johndawson@example.org",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-12-17T01:26:30"
+  },
+  {
+    "customer_id": 291,
+    "full_name": "Jenna Thomas",
+    "email": "courtney67@example.org",
+    "country": "BE",
+    "segment": "small_business",
+    "created_at": "2025-11-16T12:23:35"
+  },
+  {
+    "customer_id": 292,
+    "full_name": "Patricia Powell",
+    "email": "heather57@example.com",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-10-22T16:35:18"
+  },
+  {
+    "customer_id": 293,
+    "full_name": "Sheila Boone",
+    "email": "simonstephen@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-24T04:56:51"
+  },
+  {
+    "customer_id": 294,
+    "full_name": "Arthur Ferguson",
+    "email": "tammysummers@example.com",
+    "country": "UK",
+    "segment": "small_business",
+    "created_at": "2025-11-04T01:16:16"
+  },
+  {
+    "customer_id": 295,
+    "full_name": "Drew Kelley",
+    "email": "ashleewashington@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-08-12T19:08:29"
+  },
+  {
+    "customer_id": 296,
+    "full_name": "Amber Garcia",
+    "email": "ksmith@example.com",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-12-12T06:43:54"
+  },
+  {
+    "customer_id": 297,
+    "full_name": "Tyler Harris",
+    "email": "nicoleturner@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-09-18T07:11:52"
+  },
+  {
+    "customer_id": 298,
+    "full_name": "Danielle Watson",
+    "email": "brettgarrett@example.net",
+    "country": "DE",
+    "segment": "small_business",
+    "created_at": "2025-07-09T18:39:54"
+  },
+  {
+    "customer_id": 299,
+    "full_name": "Jessica Davis",
+    "email": "smiththomas@example.org",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-11-04T11:18:07"
+  },
+  {
+    "customer_id": 300,
+    "full_name": "Michael Smith",
+    "email": "lisa62@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-10-14T22:24:58"
+  },
+  {
+    "customer_id": 301,
+    "full_name": "Brandon Shaffer",
+    "email": "edwardsnicole@example.org",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-07-05T09:45:10"
+  },
+  {
+    "customer_id": 302,
+    "full_name": "Nicole Anderson",
+    "email": "caseyelliott@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-09-03T23:16:42"
+  },
+  {
+    "customer_id": 303,
+    "full_name": "Gregory Lewis",
+    "email": "samanthajensen@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-10-25T20:58:58"
+  },
+  {
+    "customer_id": 304,
+    "full_name": "Steven Taylor",
+    "email": "lawrencepatrick@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-12-05T15:23:06"
+  },
+  {
+    "customer_id": 305,
+    "full_name": "Danielle Newman",
+    "email": "angelagreene@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-21T17:21:44"
+  },
+  {
+    "customer_id": 306,
+    "full_name": "Melissa Abbott",
+    "email": "jamie98@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-15T23:29:46"
+  },
+  {
+    "customer_id": 307,
+    "full_name": "Matthew Bowers",
+    "email": "troyrodriguez@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-11-13T20:52:23"
+  },
+  {
+    "customer_id": 308,
+    "full_name": "Kelsey Levine",
+    "email": "sarah26@example.net",
+    "country": "NL",
+    "segment": "small_business",
+    "created_at": "2025-10-23T13:20:54"
+  },
+  {
+    "customer_id": 309,
+    "full_name": "Michael Farmer",
+    "email": "smithcarlos@example.com",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-09-11T09:02:07"
+  },
+  {
+    "customer_id": 310,
+    "full_name": "Antonio Mccormick",
+    "email": "courtney86@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-02T13:06:14"
+  },
+  {
+    "customer_id": 311,
+    "full_name": "Martin Medina",
+    "email": "joshuacollins@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-11-04T22:20:37"
+  },
+  {
+    "customer_id": 312,
+    "full_name": "Robert Herrera",
+    "email": "wwillis@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-12-17T11:29:24"
+  },
+  {
+    "customer_id": 313,
+    "full_name": "Emily Kim",
+    "email": "brianmiller@example.com",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-10-31T21:37:07"
+  },
+  {
+    "customer_id": 314,
+    "full_name": "Lee Parker",
+    "email": "davidzimmerman@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-07-14T04:12:20"
+  },
+  {
+    "customer_id": 315,
+    "full_name": "Troy Mills",
+    "email": "gary24@example.net",
+    "country": "ES",
+    "segment": "small_business",
+    "created_at": "2025-06-23T20:34:00"
+  },
+  {
+    "customer_id": 316,
+    "full_name": "Steven Rogers",
+    "email": "enelson@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-12-10T18:39:40"
+  },
+  {
+    "customer_id": 317,
+    "full_name": "Lori Crawford",
+    "email": "brian92@example.com",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-11-06T23:20:09"
+  },
+  {
+    "customer_id": 318,
+    "full_name": "Brian Berry",
+    "email": "perezwilliam@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-07-22T04:47:12"
+  },
+  {
+    "customer_id": 319,
+    "full_name": "Dana Ruiz",
+    "email": "lmora@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-12-05T09:26:59"
+  },
+  {
+    "customer_id": 320,
+    "full_name": "Michelle Rios",
+    "email": "marcbutler@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-10-07T00:12:20"
+  },
+  {
+    "customer_id": 321,
+    "full_name": "Blake Watson",
+    "email": "whitelinda@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-22T18:40:29"
+  },
+  {
+    "customer_id": 322,
+    "full_name": "John Campbell",
+    "email": "mark87@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-09-07T12:06:51"
+  },
+  {
+    "customer_id": 323,
+    "full_name": "Justin Torres",
+    "email": "stevenvargas@example.com",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-09-01T06:57:28"
+  },
+  {
+    "customer_id": 324,
+    "full_name": "Morgan Payne",
+    "email": "edwardrandolph@example.org",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-11-18T16:18:28"
+  },
+  {
+    "customer_id": 325,
+    "full_name": "Makayla Steele",
+    "email": "tapiaaaron@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-08-05T21:31:02"
+  },
+  {
+    "customer_id": 326,
+    "full_name": "Monica Garcia",
+    "email": "robertwoodward@example.org",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-09-02T17:14:13"
+  },
+  {
+    "customer_id": 327,
+    "full_name": "Andrew Hall",
+    "email": "xhaynes@example.com",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-11-06T20:12:36"
+  },
+  {
+    "customer_id": 328,
+    "full_name": "Brendan Anderson",
+    "email": "kjones@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-11-13T21:07:58"
+  },
+  {
+    "customer_id": 329,
+    "full_name": "Bianca Carter",
+    "email": "sara65@example.com",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-09-14T02:50:10"
+  },
+  {
+    "customer_id": 330,
+    "full_name": "Benjamin Harris",
+    "email": "moorefrank@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-09-17T13:40:25"
+  },
+  {
+    "customer_id": 331,
+    "full_name": "Joshua Oconnell",
+    "email": "shannonford@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-21T15:10:13"
+  },
+  {
+    "customer_id": 332,
+    "full_name": "Michael Mckenzie",
+    "email": "lewismelissa@example.org",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-07-09T05:03:39"
+  },
+  {
+    "customer_id": 333,
+    "full_name": "Tracy Foster",
+    "email": "byrdjorge@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-09T08:45:07"
+  },
+  {
+    "customer_id": 334,
+    "full_name": "Sarah Hawkins",
+    "email": "codygarcia@example.org",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-06-27T16:31:19"
+  },
+  {
+    "customer_id": 335,
+    "full_name": "Ronald Haas",
+    "email": "jamesmorales@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-15T05:40:56"
+  },
+  {
+    "customer_id": 336,
+    "full_name": "Angela Willis",
+    "email": "johnsoncaleb@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-10-22T01:04:07"
+  },
+  {
+    "customer_id": 337,
+    "full_name": "Anna Boone",
+    "email": "david70@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-09-15T18:12:32"
+  },
+  {
+    "customer_id": 338,
+    "full_name": "Samantha Foster",
+    "email": "reyesronald@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-12-18T02:26:06"
+  },
+  {
+    "customer_id": 339,
+    "full_name": "Denise Griffin",
+    "email": "austinharvey@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-08-02T08:19:07"
+  },
+  {
+    "customer_id": 340,
+    "full_name": "Jason Pierce",
+    "email": "millerpatrick@example.com",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-10-25T08:12:18"
+  },
+  {
+    "customer_id": 341,
+    "full_name": "Rebecca Wright",
+    "email": "mayokimberly@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-07-30T09:12:35"
+  },
+  {
+    "customer_id": 342,
+    "full_name": "Kari Durham",
+    "email": "paul20@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-09-22T19:09:38"
+  },
+  {
+    "customer_id": 343,
+    "full_name": "Steven Osborne",
+    "email": "stokesthomas@example.com",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-10-15T14:25:59"
+  },
+  {
+    "customer_id": 344,
+    "full_name": "Crystal Moore",
+    "email": "dianeadams@example.net",
+    "country": "UK",
+    "segment": "small_business",
+    "created_at": "2025-11-17T13:24:45"
+  },
+  {
+    "customer_id": 345,
+    "full_name": "Theresa Johnston",
+    "email": "lkelly@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-02T12:13:20"
+  },
+  {
+    "customer_id": 346,
+    "full_name": "Renee Wolfe",
+    "email": "warnermichael@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-06T14:04:38"
+  },
+  {
+    "customer_id": 347,
+    "full_name": "Travis Copeland",
+    "email": "lweaver@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-10-09T02:15:56"
+  },
+  {
+    "customer_id": 348,
+    "full_name": "David Robinson",
+    "email": "nsmith@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-06-29T00:35:34"
+  },
+  {
+    "customer_id": 349,
+    "full_name": "Mitchell Sellers",
+    "email": "brian29@example.net",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-11-25T05:58:37"
+  },
+  {
+    "customer_id": 350,
+    "full_name": "Brian Fox",
+    "email": "susan56@example.net",
+    "country": "DE",
+    "segment": "small_business",
+    "created_at": "2025-12-16T18:14:36"
+  },
+  {
+    "customer_id": 351,
+    "full_name": "Frank Daugherty",
+    "email": "fconner@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-07-11T06:30:47"
+  },
+  {
+    "customer_id": 352,
+    "full_name": "Wayne Steele",
+    "email": "jeffrey92@example.com",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-08-22T06:19:01"
+  },
+  {
+    "customer_id": 353,
+    "full_name": "Elizabeth Thompson",
+    "email": "rushstacy@example.com",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-08-20T05:34:08"
+  },
+  {
+    "customer_id": 354,
+    "full_name": "Traci Johnson DDS",
+    "email": "daniellegarcia@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-12-03T20:29:02"
+  },
+  {
+    "customer_id": 355,
+    "full_name": "Blake Reed",
+    "email": "gary15@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-18T23:06:53"
+  },
+  {
+    "customer_id": 356,
+    "full_name": "David Jones",
+    "email": "kristin00@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-06-23T20:46:35"
+  },
+  {
+    "customer_id": 357,
+    "full_name": "Tracy Wilkerson",
+    "email": "wmacias@example.net",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-09-14T17:55:22"
+  },
+  {
+    "customer_id": 358,
+    "full_name": "John Shields",
+    "email": "franciscojones@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-09-02T12:54:56"
+  },
+  {
+    "customer_id": 359,
+    "full_name": "Dean Garcia",
+    "email": "george62@example.net",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-08-17T22:02:34"
+  },
+  {
+    "customer_id": 360,
+    "full_name": "Stephanie Davis",
+    "email": "bbush@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-07-06T05:12:20"
+  },
+  {
+    "customer_id": 361,
+    "full_name": "Jessica Brown",
+    "email": "jamie36@example.net",
+    "country": "BE",
+    "segment": "small_business",
+    "created_at": "2025-07-23T16:36:42"
+  },
+  {
+    "customer_id": 362,
+    "full_name": "Monica Baker",
+    "email": "kenneth10@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-10-07T06:01:12"
+  },
+  {
+    "customer_id": 363,
+    "full_name": "Katherine Brown",
+    "email": "pattersonkelly@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-10-10T16:18:34"
+  },
+  {
+    "customer_id": 364,
+    "full_name": "Christina Johnson",
+    "email": "daniellerowland@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-10-21T00:48:14"
+  },
+  {
+    "customer_id": 365,
+    "full_name": "Richard Ruiz",
+    "email": "christopher86@example.org",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-12-02T11:55:05"
+  },
+  {
+    "customer_id": 366,
+    "full_name": "Jaclyn Griffin",
+    "email": "scott43@example.com",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-09-01T16:45:00"
+  },
+  {
+    "customer_id": 367,
+    "full_name": "Paul Contreras",
+    "email": "barnettlindsey@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-10-09T05:14:55"
+  },
+  {
+    "customer_id": 368,
+    "full_name": "Kristen Randall",
+    "email": "rsheppard@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-11-15T13:00:49"
+  },
+  {
+    "customer_id": 369,
+    "full_name": "Karen Miller",
+    "email": "shawrachel@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-10-10T20:42:40"
+  },
+  {
+    "customer_id": 370,
+    "full_name": "Mrs. Tiffany Cole",
+    "email": "teresastokes@example.org",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-10-31T05:12:38"
+  },
+  {
+    "customer_id": 371,
+    "full_name": "William Graham",
+    "email": "maryscott@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-06-29T22:33:11"
+  },
+  {
+    "customer_id": 372,
+    "full_name": "Angie Hawkins",
+    "email": "melissa87@example.org",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-12-16T04:01:42"
+  },
+  {
+    "customer_id": 373,
+    "full_name": "Laurie Harrington",
+    "email": "perryeddie@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-11-21T09:15:38"
+  },
+  {
+    "customer_id": 374,
+    "full_name": "Teresa Buckley",
+    "email": "floydmikayla@example.com",
+    "country": "UK",
+    "segment": "enterprise",
+    "created_at": "2025-10-12T19:08:28"
+  },
+  {
+    "customer_id": 375,
+    "full_name": "James Washington",
+    "email": "rjohnson@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-12-09T02:56:58"
+  },
+  {
+    "customer_id": 376,
+    "full_name": "Melanie Morales",
+    "email": "vpreston@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-19T14:04:16"
+  },
+  {
+    "customer_id": 377,
+    "full_name": "John Adams",
+    "email": "andrew44@example.com",
+    "country": "UK",
+    "segment": "small_business",
+    "created_at": "2025-08-06T18:52:08"
+  },
+  {
+    "customer_id": 378,
+    "full_name": "Michael Garcia PhD",
+    "email": "kevinmanning@example.com",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-12-02T07:37:07"
+  },
+  {
+    "customer_id": 379,
+    "full_name": "Lisa Davis",
+    "email": "alewis@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-08-12T23:15:26"
+  },
+  {
+    "customer_id": 380,
+    "full_name": "Sharon Nicholson",
+    "email": "cameronmckinney@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-09-23T17:25:04"
+  },
+  {
+    "customer_id": 381,
+    "full_name": "Kelly Carroll",
+    "email": "jameswhitaker@example.org",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-07-17T23:50:35"
+  },
+  {
+    "customer_id": 382,
+    "full_name": "Anthony Ward",
+    "email": "joshuacolon@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-08-09T02:22:41"
+  },
+  {
+    "customer_id": 383,
+    "full_name": "Becky Johnson",
+    "email": "tracy72@example.com",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-09-06T17:33:15"
+  },
+  {
+    "customer_id": 384,
+    "full_name": "Hailey Monroe",
+    "email": "kaitlyn14@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-10-13T14:43:45"
+  },
+  {
+    "customer_id": 385,
+    "full_name": "Scott Chan",
+    "email": "mercedesholland@example.net",
+    "country": "ES",
+    "segment": "small_business",
+    "created_at": "2025-09-04T17:11:44"
+  },
+  {
+    "customer_id": 386,
+    "full_name": "Jason Smith",
+    "email": "wellsdavid@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-31T19:06:19"
+  },
+  {
+    "customer_id": 387,
+    "full_name": "Courtney Franklin",
+    "email": "jennifer46@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-10-16T09:11:37"
+  },
+  {
+    "customer_id": 388,
+    "full_name": "David Owens",
+    "email": "asilva@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-12-04T00:20:54"
+  },
+  {
+    "customer_id": 389,
+    "full_name": "Sara Hoffman",
+    "email": "kenneth17@example.org",
+    "country": "DE",
+    "segment": "enterprise",
+    "created_at": "2025-10-28T06:28:09"
+  },
+  {
+    "customer_id": 390,
+    "full_name": "Margaret Hensley MD",
+    "email": "jacob83@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-08-25T22:51:52"
+  },
+  {
+    "customer_id": 391,
+    "full_name": "Rhonda Powell",
+    "email": "erin07@example.com",
+    "country": "UK",
+    "segment": "small_business",
+    "created_at": "2025-11-25T01:14:39"
+  },
+  {
+    "customer_id": 392,
+    "full_name": "Jennifer Doyle",
+    "email": "matthewreeves@example.net",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-08-11T00:40:59"
+  },
+  {
+    "customer_id": 393,
+    "full_name": "Karen Shepard",
+    "email": "william28@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-10-03T11:14:57"
+  },
+  {
+    "customer_id": 394,
+    "full_name": "Carl Green",
+    "email": "staceylam@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-08-17T16:48:07"
+  },
+  {
+    "customer_id": 395,
+    "full_name": "Daniel Savage",
+    "email": "vfrench@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-07-08T23:50:11"
+  },
+  {
+    "customer_id": 396,
+    "full_name": "Julie Wilson",
+    "email": "delacruzbrandy@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-08-11T05:57:47"
+  },
+  {
+    "customer_id": 397,
+    "full_name": "Cory Wilson",
+    "email": "amoreno@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-07-05T11:33:30"
+  },
+  {
+    "customer_id": 398,
+    "full_name": "Brenda Gonzalez",
+    "email": "dbenitez@example.org",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-12-07T18:07:13"
+  },
+  {
+    "customer_id": 399,
+    "full_name": "Catherine Miller",
+    "email": "crystal25@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-08-22T02:07:22"
+  },
+  {
+    "customer_id": 400,
+    "full_name": "Donald Juarez",
+    "email": "barbaramoore@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-07-02T22:01:55"
+  },
+  {
+    "customer_id": 401,
+    "full_name": "Madeline Powell",
+    "email": "creyes@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-16T18:44:40"
+  },
+  {
+    "customer_id": 402,
+    "full_name": "Tiffany Mcclain",
+    "email": "andrewsmith@example.net",
+    "country": "ES",
+    "segment": "small_business",
+    "created_at": "2025-07-30T09:00:24"
+  },
+  {
+    "customer_id": 403,
+    "full_name": "Shawn Collins",
+    "email": "reyesbrianna@example.org",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-08-08T23:16:08"
+  },
+  {
+    "customer_id": 404,
+    "full_name": "Elizabeth Carter",
+    "email": "ryan25@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-07-04T07:55:43"
+  },
+  {
+    "customer_id": 405,
+    "full_name": "Carmen Meadows",
+    "email": "osmith@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-08-30T09:53:58"
+  },
+  {
+    "customer_id": 406,
+    "full_name": "Alex Wagner",
+    "email": "richardsondebra@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-17T03:07:56"
+  },
+  {
+    "customer_id": 407,
+    "full_name": "Dawn Nichols",
+    "email": "wheelerbrandon@example.org",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-09-02T12:11:33"
+  },
+  {
+    "customer_id": 408,
+    "full_name": "Amber Wilson",
+    "email": "jjames@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-10-26T13:30:54"
+  },
+  {
+    "customer_id": 409,
+    "full_name": "Christine Jennings",
+    "email": "turnerdorothy@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-09-21T18:30:58"
+  },
+  {
+    "customer_id": 410,
+    "full_name": "Larry Taylor",
+    "email": "huntchristine@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-09-30T16:29:09"
+  },
+  {
+    "customer_id": 411,
+    "full_name": "Kathleen Lynch",
+    "email": "marie35@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-07-13T19:00:22"
+  },
+  {
+    "customer_id": 412,
+    "full_name": "Andrew Crawford",
+    "email": "haleycastillo@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-09-09T05:16:17"
+  },
+  {
+    "customer_id": 413,
+    "full_name": "Brandon Rodriguez",
+    "email": "fhernandez@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-06-22T04:25:45"
+  },
+  {
+    "customer_id": 414,
+    "full_name": "Ashley Scott",
+    "email": "stephenmadden@example.com",
+    "country": "IT",
+    "segment": "enterprise",
+    "created_at": "2025-07-06T05:25:09"
+  },
+  {
+    "customer_id": 415,
+    "full_name": "Robert Sawyer",
+    "email": "michael56@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-09-19T19:21:30"
+  },
+  {
+    "customer_id": 416,
+    "full_name": "Peter Williams",
+    "email": "elizabethjackson@example.com",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-07-14T03:48:26"
+  },
+  {
+    "customer_id": 417,
+    "full_name": "Marco Johns",
+    "email": "watsonmatthew@example.org",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-12-12T08:28:12"
+  },
+  {
+    "customer_id": 418,
+    "full_name": "Jesus Houston",
+    "email": "pmarsh@example.org",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-09-07T11:25:39"
+  },
+  {
+    "customer_id": 419,
+    "full_name": "Nicholas Jarvis",
+    "email": "dalepruitt@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-13T14:33:03"
+  },
+  {
+    "customer_id": 420,
+    "full_name": "Jessica Carr",
+    "email": "cheryl27@example.com",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-11-24T10:29:38"
+  },
+  {
+    "customer_id": 421,
+    "full_name": "Jessica Brown",
+    "email": "alexander89@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-07-13T13:59:45"
+  },
+  {
+    "customer_id": 422,
+    "full_name": "Tyler Marks",
+    "email": "reynoldsjessica@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-10-09T08:49:01"
+  },
+  {
+    "customer_id": 423,
+    "full_name": "Margaret Hernandez",
+    "email": "smithsarah@example.net",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-08-27T18:58:42"
+  },
+  {
+    "customer_id": 424,
+    "full_name": "Jon Martin",
+    "email": "vflores@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-12-03T11:34:34"
+  },
+  {
+    "customer_id": 425,
+    "full_name": "Krista Gray",
+    "email": "christianwallace@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-07-01T10:19:13"
+  },
+  {
+    "customer_id": 426,
+    "full_name": "Jonathan Stewart",
+    "email": "bmcgee@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-09-16T15:57:35"
+  },
+  {
+    "customer_id": 427,
+    "full_name": "Justin Smith",
+    "email": "connersylvia@example.net",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-09-07T23:50:03"
+  },
+  {
+    "customer_id": 428,
+    "full_name": "Kristina Pena",
+    "email": "xclements@example.org",
+    "country": "ES",
+    "segment": "enterprise",
+    "created_at": "2025-08-19T19:11:54"
+  },
+  {
+    "customer_id": 429,
+    "full_name": "Jesse Castro",
+    "email": "xmoran@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-11-27T05:14:53"
+  },
+  {
+    "customer_id": 430,
+    "full_name": "Peter Walker",
+    "email": "michael48@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-09-17T12:37:23"
+  },
+  {
+    "customer_id": 431,
+    "full_name": "Amber Martin",
+    "email": "lydianewton@example.com",
+    "country": "DE",
+    "segment": "small_business",
+    "created_at": "2025-09-02T06:07:28"
+  },
+  {
+    "customer_id": 432,
+    "full_name": "Craig Martinez",
+    "email": "ylewis@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-07-12T10:08:45"
+  },
+  {
+    "customer_id": 433,
+    "full_name": "Peter Williams",
+    "email": "bartonshannon@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-11-07T20:08:34"
+  },
+  {
+    "customer_id": 434,
+    "full_name": "Brandy Porter",
+    "email": "tranryan@example.net",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-10-14T02:04:53"
+  },
+  {
+    "customer_id": 435,
+    "full_name": "Priscilla Kent",
+    "email": "jessicaanderson@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-09-23T10:17:42"
+  },
+  {
+    "customer_id": 436,
+    "full_name": "Sonya Gordon",
+    "email": "mbarnes@example.net",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-10-27T07:56:34"
+  },
+  {
+    "customer_id": 437,
+    "full_name": "James Cooper",
+    "email": "shawn22@example.com",
+    "country": "ES",
+    "segment": "small_business",
+    "created_at": "2025-11-16T16:35:33"
+  },
+  {
+    "customer_id": 438,
+    "full_name": "Nicole Evans",
+    "email": "jennifer83@example.org",
+    "country": "ES",
+    "segment": "small_business",
+    "created_at": "2025-10-16T15:38:11"
+  },
+  {
+    "customer_id": 439,
+    "full_name": "Donna Reed",
+    "email": "tinasantos@example.org",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-08-01T09:00:04"
+  },
+  {
+    "customer_id": 440,
+    "full_name": "Mallory Page",
+    "email": "anna99@example.net",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-09-27T11:58:58"
+  },
+  {
+    "customer_id": 441,
+    "full_name": "Paul Skinner",
+    "email": "natalie60@example.net",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-11-06T13:05:06"
+  },
+  {
+    "customer_id": 442,
+    "full_name": "Charles Santiago",
+    "email": "josephfloyd@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-07-12T07:51:27"
+  },
+  {
+    "customer_id": 443,
+    "full_name": "Ryan Vaughn",
+    "email": "james80@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-11-01T08:29:56"
+  },
+  {
+    "customer_id": 444,
+    "full_name": "Luis Lowe",
+    "email": "juliahoffman@example.org",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-11-26T17:18:22"
+  },
+  {
+    "customer_id": 445,
+    "full_name": "Rebecca Roberts",
+    "email": "housepaul@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-09-28T20:44:22"
+  },
+  {
+    "customer_id": 446,
+    "full_name": "Amy Manning",
+    "email": "christinenorman@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-08-21T08:44:32"
+  },
+  {
+    "customer_id": 447,
+    "full_name": "Mark Mckinney",
+    "email": "kari89@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-11-29T19:40:21"
+  },
+  {
+    "customer_id": 448,
+    "full_name": "Cheryl Cole",
+    "email": "lopezglenn@example.net",
+    "country": "UK",
+    "segment": "small_business",
+    "created_at": "2025-11-19T08:46:30"
+  },
+  {
+    "customer_id": 449,
+    "full_name": "Jeffrey Hawkins",
+    "email": "eugenesingleton@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-07-14T19:53:53"
+  },
+  {
+    "customer_id": 450,
+    "full_name": "Timothy Williams",
+    "email": "candice94@example.com",
+    "country": "DE",
+    "segment": "small_business",
+    "created_at": "2025-08-24T20:12:12"
+  },
+  {
+    "customer_id": 451,
+    "full_name": "Heather Bowers",
+    "email": "alicia28@example.org",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-11-22T00:54:29"
+  },
+  {
+    "customer_id": 452,
+    "full_name": "Jennifer Herrera",
+    "email": "baileynicole@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-11-21T07:53:53"
+  },
+  {
+    "customer_id": 453,
+    "full_name": "Edward Clements",
+    "email": "wbarajas@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-08-25T02:21:30"
+  },
+  {
+    "customer_id": 454,
+    "full_name": "Gregory Allen",
+    "email": "susanfleming@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-06-23T08:41:50"
+  },
+  {
+    "customer_id": 455,
+    "full_name": "Theresa Cruz",
+    "email": "angel85@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-09-03T16:59:39"
+  },
+  {
+    "customer_id": 456,
+    "full_name": "Katelyn Phillips",
+    "email": "lukemiller@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-11-24T13:03:58"
+  },
+  {
+    "customer_id": 457,
+    "full_name": "Patricia Ferguson",
+    "email": "clarkcrystal@example.org",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-07-24T03:47:07"
+  },
+  {
+    "customer_id": 458,
+    "full_name": "Sara Harris",
+    "email": "elucas@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-12-06T14:37:56"
+  },
+  {
+    "customer_id": 459,
+    "full_name": "Joe Rivera",
+    "email": "jonesgregory@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-11-01T20:51:49"
+  },
+  {
+    "customer_id": 460,
+    "full_name": "Roberto Bartlett",
+    "email": "ohughes@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-10-08T00:31:48"
+  },
+  {
+    "customer_id": 461,
+    "full_name": "James Wilson",
+    "email": "maychristine@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-09-13T17:42:43"
+  },
+  {
+    "customer_id": 462,
+    "full_name": "Ryan Howard",
+    "email": "robertsgina@example.net",
+    "country": "NL",
+    "segment": "consumer",
+    "created_at": "2025-10-13T08:48:01"
+  },
+  {
+    "customer_id": 463,
+    "full_name": "Timothy James",
+    "email": "wellsamanda@example.org",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-07-08T10:48:45"
+  },
+  {
+    "customer_id": 464,
+    "full_name": "Robert Gardner",
+    "email": "kennetheaton@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-11-13T15:47:40"
+  },
+  {
+    "customer_id": 465,
+    "full_name": "Travis Spencer",
+    "email": "davidsmith@example.net",
+    "country": "ES",
+    "segment": "enterprise",
+    "created_at": "2025-10-25T11:17:28"
+  },
+  {
+    "customer_id": 466,
+    "full_name": "Theresa Torres",
+    "email": "jason82@example.org",
+    "country": "DE",
+    "segment": "small_business",
+    "created_at": "2025-09-06T04:13:22"
+  },
+  {
+    "customer_id": 467,
+    "full_name": "Ruben Lee",
+    "email": "emilybradley@example.org",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-07-27T09:08:14"
+  },
+  {
+    "customer_id": 468,
+    "full_name": "Wanda Dunn",
+    "email": "robertscarlos@example.org",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-12-03T23:25:24"
+  },
+  {
+    "customer_id": 469,
+    "full_name": "Katelyn Rivera",
+    "email": "emilyyoung@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-07-29T23:42:06"
+  },
+  {
+    "customer_id": 470,
+    "full_name": "Corey Tucker",
+    "email": "christina49@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-10-19T22:49:19"
+  },
+  {
+    "customer_id": 471,
+    "full_name": "Rhonda Benjamin",
+    "email": "adamsanchez@example.org",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-10-09T11:19:57"
+  },
+  {
+    "customer_id": 472,
+    "full_name": "Jessica Larsen",
+    "email": "erinrivera@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-11-06T22:45:27"
+  },
+  {
+    "customer_id": 473,
+    "full_name": "Raymond Tucker",
+    "email": "thompsoncatherine@example.com",
+    "country": "IT",
+    "segment": "small_business",
+    "created_at": "2025-09-19T12:41:56"
+  },
+  {
+    "customer_id": 474,
+    "full_name": "Stephanie Gonzalez",
+    "email": "lunapatricia@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-12-05T09:33:53"
+  },
+  {
+    "customer_id": 475,
+    "full_name": "Kevin Sullivan",
+    "email": "rebeccaarnold@example.net",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-10-22T07:15:43"
+  },
+  {
+    "customer_id": 476,
+    "full_name": "Mrs. Patricia Diaz MD",
+    "email": "dennis88@example.org",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-12-12T05:56:44"
+  },
+  {
+    "customer_id": 477,
+    "full_name": "Adam Allen",
+    "email": "katherinetaylor@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-09-06T16:49:19"
+  },
+  {
+    "customer_id": 478,
+    "full_name": "Krystal Brennan",
+    "email": "jillwebb@example.com",
+    "country": "FR",
+    "segment": "small_business",
+    "created_at": "2025-07-26T10:32:46"
+  },
+  {
+    "customer_id": 479,
+    "full_name": "John Brown",
+    "email": "jim38@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-06-29T12:02:21"
+  },
+  {
+    "customer_id": 480,
+    "full_name": "Jesse Williams",
+    "email": "dakota84@example.net",
+    "country": "DE",
+    "segment": "small_business",
+    "created_at": "2025-09-05T00:18:50"
+  },
+  {
+    "customer_id": 481,
+    "full_name": "Laura Bennett",
+    "email": "pdiaz@example.org",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-08-11T18:48:39"
+  },
+  {
+    "customer_id": 482,
+    "full_name": "William Walker",
+    "email": "wgomez@example.com",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-09-29T23:29:34"
+  },
+  {
+    "customer_id": 483,
+    "full_name": "Mr. Jonathan Taylor",
+    "email": "jerryrobertson@example.com",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-11-22T13:43:14"
+  },
+  {
+    "customer_id": 484,
+    "full_name": "Christopher Guzman",
+    "email": "guerrerorobert@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-08-01T17:24:37"
+  },
+  {
+    "customer_id": 485,
+    "full_name": "Michael Mendoza",
+    "email": "deborahjenkins@example.org",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-11-08T12:18:13"
+  },
+  {
+    "customer_id": 486,
+    "full_name": "Kevin Taylor",
+    "email": "macdonalddylan@example.org",
+    "country": "UK",
+    "segment": "consumer",
+    "created_at": "2025-06-30T00:44:10"
+  },
+  {
+    "customer_id": 487,
+    "full_name": "Kellie Sullivan",
+    "email": "johnsjessica@example.com",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-08-10T19:14:46"
+  },
+  {
+    "customer_id": 488,
+    "full_name": "Lawrence Ruiz",
+    "email": "ajackson@example.net",
+    "country": "DE",
+    "segment": "small_business",
+    "created_at": "2025-07-08T07:17:10"
+  },
+  {
+    "customer_id": 489,
+    "full_name": "Samantha White",
+    "email": "gary57@example.net",
+    "country": "BE",
+    "segment": "consumer",
+    "created_at": "2025-07-19T08:45:21"
+  },
+  {
+    "customer_id": 490,
+    "full_name": "James Anderson",
+    "email": "harrismichele@example.net",
+    "country": "FR",
+    "segment": "enterprise",
+    "created_at": "2025-10-14T08:02:45"
+  },
+  {
+    "customer_id": 491,
+    "full_name": "Chase Davis",
+    "email": "mvalenzuela@example.org",
+    "country": "ES",
+    "segment": "small_business",
+    "created_at": "2025-11-01T13:03:15"
+  },
+  {
+    "customer_id": 492,
+    "full_name": "Kathy Wilson",
+    "email": "mhopkins@example.net",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-12-09T02:17:34"
+  },
+  {
+    "customer_id": 493,
+    "full_name": "Todd Gregory",
+    "email": "xboyd@example.org",
+    "country": "FR",
+    "segment": "consumer",
+    "created_at": "2025-11-29T08:12:00"
+  },
+  {
+    "customer_id": 494,
+    "full_name": "Crystal Lang",
+    "email": "zbell@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-11-04T02:55:13"
+  },
+  {
+    "customer_id": 495,
+    "full_name": "Melissa Davis",
+    "email": "jonathancannon@example.org",
+    "country": "DE",
+    "segment": "small_business",
+    "created_at": "2025-12-14T22:35:53"
+  },
+  {
+    "customer_id": 496,
+    "full_name": "Kimberly Scott",
+    "email": "fletcherkristine@example.net",
+    "country": "UK",
+    "segment": "small_business",
+    "created_at": "2025-08-15T15:47:15"
+  },
+  {
+    "customer_id": 497,
+    "full_name": "Adam Pena",
+    "email": "robert12@example.com",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-10-01T02:53:06"
+  },
+  {
+    "customer_id": 498,
+    "full_name": "Deborah Herrera",
+    "email": "cheryl63@example.com",
+    "country": "IT",
+    "segment": "consumer",
+    "created_at": "2025-10-26T04:13:59"
+  },
+  {
+    "customer_id": 499,
+    "full_name": "Karen Wood",
+    "email": "tking@example.net",
+    "country": "DE",
+    "segment": "consumer",
+    "created_at": "2025-10-06T20:39:52"
+  },
+  {
+    "customer_id": 500,
+    "full_name": "Jennifer Taylor",
+    "email": "adkinssean@example.net",
+    "country": "ES",
+    "segment": "consumer",
+    "created_at": "2025-08-27T12:29:09"
+  }
+]
