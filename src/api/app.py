@@ -6,6 +6,7 @@ from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
 from decimal import Decimal
 import traceback
+from werkzeug.exceptions import HTTPException
 
 load_dotenv()
 
@@ -43,16 +44,22 @@ def clean_json(obj):
 
 
 def parse_date(s: str) -> date:
-    return datetime.strptime(s, "%Y-%m-%d").date()
+    try:
+        return datetime.strptime(s, "%Y-%m-%d").date()
+    except ValueError:
+        raise ValueError("Invalid date format. Use YYYY-MM-DD")
+
 
 @app.errorhandler(Exception)
 def handle_exception(e):
-    # Print traceback in logs (Render logs will show it)
+    # Keep HTTP errors (like 404) as their real status codes
+    if isinstance(e, HTTPException):
+        return jsonify({"error": e.name, "message": e.description}), e.code
+
+    # For unexpected errors, log traceback and return 500
     traceback.print_exc()
-    return jsonify({
-        "error": "Internal Server Error",
-        "message": str(e)
-    }), 500
+    return jsonify({"error": "Internal Server Error", "message": str(e)}), 500
+
 
 
 @app.get("/health")
@@ -83,8 +90,11 @@ def kpis():
     if not start_str or not end_str:
         return jsonify({"error": "Please provide start and end. Example: /kpis?start=2025-01-01&end=2025-01-31"}), 400
 
-    start = parse_date(start_str)
-    end = parse_date(end_str)
+    try:
+       start = parse_date(start_str)
+       end = parse_date(end_str)
+    except ValueError as e:
+            return jsonify({"error": str(e)}), 400
 
     sql = text("""
         WITH base AS (
@@ -144,8 +154,11 @@ def revenue_by_day():
     if not start_str or not end_str:
         return jsonify({"error": "Example: /revenue/by-day?start=YYYY-MM-DD&end=YYYY-MM-DD"}), 400
 
-    start = parse_date(start_str)
-    end = parse_date(end_str)
+    try:
+       start = parse_date(start_str)
+       end = parse_date(end_str)
+    except ValueError as e:
+            return jsonify({"error": str(e)}), 400
 
     sql = text("""
         SELECT
@@ -175,8 +188,11 @@ def revenue_by_category():
     if not start_str or not end_str:
         return jsonify({"error": "Example: /revenue/by-category?start=YYYY-MM-DD&end=YYYY-MM-DD"}), 400
 
-    start = parse_date(start_str)
-    end = parse_date(end_str)
+    try:
+       start = parse_date(start_str)
+       end = parse_date(end_str)
+    except ValueError as e:
+            return jsonify({"error": str(e)}), 400
 
     sql = text("""
         SELECT
@@ -208,8 +224,11 @@ def top_products():
     if not start_str or not end_str:
         return jsonify({"error": "Example: /top-products?start=YYYY-MM-DD&end=YYYY-MM-DD&limit=10"}), 400
 
-    start = parse_date(start_str)
-    end = parse_date(end_str)
+    try:
+       start = parse_date(start_str)
+       end = parse_date(end_str)
+    except ValueError as e:
+            return jsonify({"error": str(e)}), 400
 
     sql = text("""
         SELECT
@@ -243,8 +262,11 @@ def roas_by_day():
     if not start_str or not end_str:
         return jsonify({"error": "Example: /marketing/roas-by-day?start=YYYY-MM-DD&end=YYYY-MM-DD"}), 400
 
-    start = parse_date(start_str)
-    end = parse_date(end_str)
+    try:
+       start = parse_date(start_str)
+       end = parse_date(end_str)
+    except ValueError as e:
+            return jsonify({"error": str(e)}), 400
 
     sql = text("""
         WITH rev AS (
