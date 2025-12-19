@@ -13,9 +13,17 @@ DB_NAME = os.getenv("DB_NAME", "demo_dw")
 DB_USER = os.getenv("DB_USER", "demo_user")
 DB_PASSWORD = os.getenv("DB_PASSWORD", "demo_pass")
 
-engine = create_engine(
-    f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
-)
+DATABASE_URL = os.getenv("DATABASE_URL")
+
+if DATABASE_URL:
+    engine = create_engine(DATABASE_URL)
+else:
+    engine = create_engine(
+        f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+    )
+   
+print("DATABASE_URL set:", bool(DATABASE_URL))
+
 
 app = Flask(__name__)
 
