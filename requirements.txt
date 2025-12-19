@@ -3,3 +3,10 @@ sqlalchemy
 psycopg2-binary
 python-dotenv
 gunicorn
+
+pandas
+numpy
+faker
+openpyxl
+requests
+streamlit
