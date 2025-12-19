@@ -26,12 +26,16 @@ jobs:
 
       # - name: Generate fake data
       #   run: python scripts/generate_fake_data.py
-    
 
       - name: Run pipeline
         run: python scripts/run_pipeline.py
 
+      - name: Upload pipeline logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-logs
+          path: logs/pipeline.log
+
       - name: Check counts
         run: python scripts/check_counts.py
-
-      
