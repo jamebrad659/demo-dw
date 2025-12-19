@@ -8,8 +8,8 @@ SCRIPTS = [
     "scripts/load_products.py",
     "scripts/load_customers.py",
     "scripts/load_orders.py",
-    "scripts/load_marketing.py",
     "scripts/load_returns.py",
+    "scripts/load_marketing.py",
 ]
 
 def run_one(script: str):

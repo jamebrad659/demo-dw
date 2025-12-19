@@ -26,9 +26,17 @@ jobs:
 
       # - name: Generate fake data
       #   run: python scripts/generate_fake_data.py
+      - name: Debug files
+  run: |
+    pwd
+    ls -la
+    ls -la scripts || true
+    find . -maxdepth 4 -name "run_pipeline.py" -print
 
       - name: Run pipeline
         run: python scripts/run_pipeline.py
 
       - name: Check counts
         run: python scripts/check_counts.py
+
+      
