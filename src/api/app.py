@@ -4,6 +4,8 @@ from datetime import datetime, date
 from flask import Flask, jsonify, request
 from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
+from decimal import Decimal
+import traceback
 
 load_dotenv()
 
@@ -22,17 +24,55 @@ else:
         f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
     )
    
-print("DATABASE_URL set:", bool(DATABASE_URL))
-
 
 app = Flask(__name__)
+
+
+
+def clean_json(obj):
+    """Convert DB values (Decimal, date, datetime) into JSON-friendly types."""
+    if isinstance(obj, Decimal):
+        return float(obj)
+    if isinstance(obj, (datetime, date)):
+        return obj.isoformat()
+    if isinstance(obj, dict):
+        return {k: clean_json(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [clean_json(x) for x in obj]
+    return obj
+
 
 def parse_date(s: str) -> date:
     return datetime.strptime(s, "%Y-%m-%d").date()
 
+@app.errorhandler(Exception)
+def handle_exception(e):
+    # Print traceback in logs (Render logs will show it)
+    traceback.print_exc()
+    return jsonify({
+        "error": "Internal Server Error",
+        "message": str(e)
+    }), 500
+
+
 @app.get("/health")
 def health():
     return jsonify({"status": "ok"})
+
+@app.get("/")
+def home():
+    return jsonify({
+        "service": "demo-dw API",
+        "endpoints": [
+            "/health",
+            "/kpis?start=YYYY-MM-DD&end=YYYY-MM-DD",
+            "/revenue/by-day?start=YYYY-MM-DD&end=YYYY-MM-DD",
+            "/revenue/by-category?start=YYYY-MM-DD&end=YYYY-MM-DD",
+            "/top-products?start=YYYY-MM-DD&end=YYYY-MM-DD&limit=10",
+            "/marketing/roas-by-day?start=YYYY-MM-DD&end=YYYY-MM-DD",
+        ]
+    })
+
 
 @app.get("/kpis")
 def kpis():
@@ -90,11 +130,12 @@ def kpis():
     with engine.begin() as conn:
         row = conn.execute(sql, {"start": start, "end": end}).mappings().one()
 
-    return jsonify({
-        "start": start_str,
-        "end": end_str,
-        "kpis": dict(row)
-    })
+    return jsonify(clean_json({
+    "start": start_str,
+    "end": end_str,
+    "kpis": dict(row)
+}))
+
 
 @app.get("/revenue/by-day")
 def revenue_by_day():
@@ -120,11 +161,12 @@ def revenue_by_day():
     with engine.begin() as conn:
         rows = conn.execute(sql, {"start": start, "end": end}).mappings().all()
 
-    return jsonify({
-        "start": start_str,
-        "end": end_str,
-        "data": [dict(r) for r in rows]
-    })
+    return jsonify(clean_json({
+    "start": start_str,
+    "end": end_str,
+    "data": [dict(r) for r in rows]
+}))
+
 
 @app.get("/revenue/by-category")
 def revenue_by_category():
@@ -151,7 +193,11 @@ def revenue_by_category():
     with engine.begin() as conn:
         rows = conn.execute(sql, {"start": start, "end": end}).mappings().all()
 
-    return jsonify({"start": start_str, "end": end_str, "data": [dict(r) for r in rows]})
+    return jsonify(clean_json({
+    "start": start_str,
+    "end": end_str,
+    "data": [dict(r) for r in rows]
+}))
 
 @app.get("/top-products")
 def top_products():
@@ -183,7 +229,12 @@ def top_products():
     with engine.begin() as conn:
         rows = conn.execute(sql, {"start": start, "end": end, "limit": limit}).mappings().all()
 
-    return jsonify({"start": start_str, "end": end_str, "data": [dict(r) for r in rows]})
+    return jsonify(clean_json({
+    "start": start_str,
+    "end": end_str,
+    "data": [dict(r) for r in rows]
+}))
+
 
 @app.get("/marketing/roas-by-day")
 def roas_by_day():
@@ -228,7 +279,12 @@ def roas_by_day():
     with engine.begin() as conn:
         rows = conn.execute(sql, {"start": start, "end": end}).mappings().all()
 
-    return jsonify({"start": start_str, "end": end_str, "data": [dict(r) for r in rows]})
+    return jsonify(clean_json({
+    "start": start_str,
+    "end": end_str,
+    "data": [dict(r) for r in rows]
+}))
+
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
