@@ -35,7 +35,8 @@ def main():
 
     # ✅ 4) Clear table first (so append doesn’t duplicate)
     with engine.begin() as conn:
-        conn.execute(text("TRUNCATE TABLE public.products;"))
+        conn.execute(text("TRUNCATE TABLE public.products CASCADE;"))
+
 
     # 5) Load fresh data
     df[["product_id", "name", "category", "price", "is_active", "updated_at"]].to_sql(

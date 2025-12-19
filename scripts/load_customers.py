@@ -31,7 +31,8 @@ def main():
 
     # ✅ Clear table first so append doesn't duplicate rows
     with engine.begin() as conn:
-        conn.execute(text("TRUNCATE TABLE public.customers;"))
+        conn.execute(text("TRUNCATE TABLE public.customers CASCADE;"))
+
 
     df[["customer_id", "full_name", "email", "country", "segment", "created_at"]].to_sql(
         "customers",
