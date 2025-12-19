@@ -47,6 +47,9 @@ def main():
             raise SystemExit(1)
         run_one(s)
 
+    run_one("scripts/validate_data.py")
+    
+
     logging.info("✅ Pipeline complete.")
 
 if __name__ == "__main__":
