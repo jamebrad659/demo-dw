@@ -2,9 +2,10 @@ import requests
 import pandas as pd
 import streamlit as st
 import os
+import streamlit as st
 
+API_BASE = st.secrets.get("API_BASE", os.getenv("API_BASE", "http://127.0.0.1:5000")).rstrip("/")
 
-API_BASE = os.getenv("API_BASE", "http://127.0.0.1:5000")
 
 
 def to_float(x, default=0.0):
