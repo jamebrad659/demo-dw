@@ -21,9 +21,16 @@ def main():
     df = pd.DataFrame(data)
     df["created_at"] = pd.to_datetime(df["created_at"])
 
-    engine = create_engine(
+    DATABASE_URL = os.getenv("DATABASE_URL")
+    
+    if  DATABASE_URL:
+        engine = create_engine(DATABASE_URL)
+    else:
+        engine = create_engine(
         f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
-    )
+    )    
+
+
 
     df[["customer_id", "full_name", "email", "country", "segment", "created_at"]].to_sql(
         "customers",

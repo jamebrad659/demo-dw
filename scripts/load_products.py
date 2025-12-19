@@ -25,9 +25,14 @@ def main():
     df["updated_at"] = pd.to_datetime(df["updated_at"])
 
     # 3) Connect to Postgres
-    engine = create_engine(
+    DATABASE_URL = os.getenv("DATABASE_URL")
+    
+    if  DATABASE_URL:
+        engine = create_engine(DATABASE_URL)
+    else:
+        engine = create_engine(
         f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
-    )
+    )    
 
     # 4) Load into table (replace = overwrite table data each time)
     df[["product_id", "name", "category", "price", "is_active", "updated_at"]].to_sql(

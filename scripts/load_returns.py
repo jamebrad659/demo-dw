@@ -27,9 +27,14 @@ def main():
     for c in int_cols:
         df[c] = pd.to_numeric(df[c], errors="raise").astype(int)
 
-    engine = create_engine(
+    DATABASE_URL = os.getenv("DATABASE_URL")
+    
+    if  DATABASE_URL:
+        engine = create_engine(DATABASE_URL)
+    else:
+        engine = create_engine(
         f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
-    )
+    )    
 
     # replace all rows each run
     with engine.begin() as conn:
@@ -41,3 +46,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

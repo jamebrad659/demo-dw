@@ -35,9 +35,14 @@ def main():
         df[c] = pd.to_numeric(df[c], errors="raise").round(2)
 
     # 3) Connect to Postgres
-    engine = create_engine(
+    DATABASE_URL = os.getenv("DATABASE_URL")
+    
+    if  DATABASE_URL:
+        engine = create_engine(DATABASE_URL)
+    else:
+        engine = create_engine(
         f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
-    )
+    )    
 
     # 4) Beginner-safe approach: clear table then load fresh
     with engine.begin() as conn:
