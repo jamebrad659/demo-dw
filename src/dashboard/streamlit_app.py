@@ -36,7 +36,20 @@ with col2:
 params = {"start": start.isoformat(), "end": end.isoformat()}
 
 # --- KPIs ---
-kpi_resp = requests.get(f"{API_BASE}/kpis", params=params).json()
+resp = requests.get(f"{API_BASE}/kpis", params=params, timeout=30)
+
+if resp.status_code != 200:
+    st.error(f"/kpis failed: {resp.status_code}")
+    st.code(resp.text[:1000])
+    st.stop()
+
+try:
+    kpi_resp = resp.json()
+except Exception:
+    st.error("API returned non-JSON response for /kpis")
+    st.code(resp.text[:1000])
+    st.stop()
+
 k = kpi_resp.get("kpis", {})
 
 revenue_net = to_float(k.get("revenue_net"))
