@@ -1,7 +1,7 @@
 import os
 import json
 import pandas as pd
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -22,19 +22,21 @@ def main():
     df["created_at"] = pd.to_datetime(df["created_at"])
 
     DATABASE_URL = os.getenv("DATABASE_URL")
-    
-    if  DATABASE_URL:
+    if DATABASE_URL:
         engine = create_engine(DATABASE_URL)
     else:
         engine = create_engine(
-        f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
-    )    
+            f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+        )
 
-
+    # ✅ Clear table first so append doesn't duplicate rows
+    with engine.begin() as conn:
+        conn.execute(text("TRUNCATE TABLE public.customers;"))
 
     df[["customer_id", "full_name", "email", "country", "segment", "created_at"]].to_sql(
         "customers",
         engine,
+        schema="public",
         if_exists="append",
         index=False,
     )

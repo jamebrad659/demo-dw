@@ -1,7 +1,7 @@
 import os
 import json
 import pandas as pd
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -26,18 +26,22 @@ def main():
 
     # 3) Connect to Postgres
     DATABASE_URL = os.getenv("DATABASE_URL")
-    
-    if  DATABASE_URL:
+    if DATABASE_URL:
         engine = create_engine(DATABASE_URL)
     else:
         engine = create_engine(
-        f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
-    )    
+            f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+        )
 
-    # 4) Load into table (replace = overwrite table data each time)
+    # ✅ 4) Clear table first (so append doesn’t duplicate)
+    with engine.begin() as conn:
+        conn.execute(text("TRUNCATE TABLE public.products;"))
+
+    # 5) Load fresh data
     df[["product_id", "name", "category", "price", "is_active", "updated_at"]].to_sql(
         "products",
         engine,
+        schema="public",
         if_exists="append",
         index=False,
     )
