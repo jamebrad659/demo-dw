@@ -1,8 +1,11 @@
 import requests
 import pandas as pd
 import streamlit as st
+import os
 
-API_BASE = "http://127.0.0.1:5000"
+
+API_BASE = os.getenv("API_BASE", "http://127.0.0.1:5000")
+
 
 def to_float(x, default=0.0):
     try:
